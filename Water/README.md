@@ -1,7 +1,7 @@
 # Simple simulation of water in a cubic box
 
 The force field for the water is tip4p/epsilon
-https://doi.org/10.1021/jp410865y
+(https://doi.org/10.1021/jp410865y)
 
 ## How to
 
