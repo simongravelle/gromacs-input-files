@@ -1,0 +1,28 @@
+integrator		= md        
+dt			= 0.002
+nsteps			= 200000
+
+nstenergy		= 5000
+nstlog			= 5000
+nstxout-compressed	= 5000
+
+continuation		= yes
+constraint-algorithm	= lincs
+constraints		= h-bonds
+
+cutoff-scheme		= Verlet
+coulombtype		= PME
+rcoulomb		= 1.0
+
+vdwtype		= Cut-off
+rvdw			= 1.0
+DispCorr		= EnerPres
+
+tcoupl			= v-rescale
+ld-seed		= 48456
+tc-grps		= Water 
+tau-t			= 0.5
+ref-t			= 300 
+nhchainlength		= 1
+
+

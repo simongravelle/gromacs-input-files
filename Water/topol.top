@@ -1,0 +1,9 @@
+#include "./FF/forcefield.itp"
+#include "./FF/tip4p_eps.itp"
+
+[ System ]
+TIP4P/eps water in a cubic box
+
+[ Molecules ]
+
+SOL       1331
