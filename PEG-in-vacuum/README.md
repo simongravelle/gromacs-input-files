@@ -15,7 +15,7 @@ gmx mdrun -v -deffnm nvt
 
 ### Output
 
-This [video](https://youtu.be/-Od088a4ylc) has been made with this script.
+This [video](https://youtu.be/8ldIHP175TI) has been made with this script.
 
 ### Contact
 
