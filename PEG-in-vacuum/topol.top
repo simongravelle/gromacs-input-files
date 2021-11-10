@@ -1,0 +1,15 @@
+[ defaults ]
+; nbfunc	comb-rule	gen-pairs	fudgeLJ	fudgeQQ
+  1		1		no		1.0	1.0
+
+; Include forcefield parameters
+#include "ff/charmm35r.itp"
+#include "ff/peg.itp"
+
+[ system ]
+; Name
+PEG
+
+[ molecules ]
+; Compound        #mols
+PEG             1
