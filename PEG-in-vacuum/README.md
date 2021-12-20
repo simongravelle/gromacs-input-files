@@ -1,10 +1,12 @@
 # PEG in vacuum
 
-The ssytem is a small PEG molecule in vacuum (or rather implicit water).
+<img align="right" width="30%" src="PEG.jpg">
 
-![PEG in vacuum](./PEG.jpg)
+### Description
 
-## How to
+The system is a small PEG molecule in vacuum (or rather implicit water with dielectric permittivity of 80).
+
+### How to
 
 Run gromacs using  
 
