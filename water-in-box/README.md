@@ -9,15 +9,20 @@ The force field for the water is [tip4p/epsilon](https://doi.org/10.1021/jp41086
 
 ### How to
 
-Run gromacs using  
+Execute generate_system.py using python to generate the initial configuration.
 
+Then, run gromacs using
 ```
-gmx grompp -f Input/equil.mdp -o equil -pp equil -po equil
-gmx mdrun -ntomp ${NSLOTS} -v -deffnm equil
-mv equil.gro conf.gro
+gmx grompp -f input/nvt.mdp -o nvt -pp nvt -po nvt
+gmx mdrun -v -deffnm nvt
+mv nvt.gro conf.gro
 
-gmx grompp -f Input/run.mdp -o run -pp run -po run
-gmx mdrun -ntomp ${NSLOTS} -v -deffnm run
+gmx grompp -f input/npt.mdp -o npt -pp npt -po npt
+gmx mdrun -v -deffnm npt
+mv npt.gro conf.gro
+
+gmx grompp -f input/run.mdp -o run -pp run -po run
+gmx mdrun -v -deffnm run
 ```
 
 ### Diffusion coefficient measurement
@@ -39,7 +44,7 @@ gmx trjconv -f run.xtc -o trajectory.xtc -pbc nojump
 Using python, run
 
 ```
-python DiffusionCoefficientMDA.py
+python diff_coeff_mda.py
 ```
 
 ### Contact
