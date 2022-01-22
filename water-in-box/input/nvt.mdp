@@ -1,6 +1,6 @@
 ;======================== running ============= ; description
 integrator 		= md 			; leap-frog algorithm for integrating Newton’s equations of motion.
-nsteps			= 50000 		; maximum number of steps to integrate or minimize (2 ns)
+nsteps			= 50000 		; maximum number of steps to integrate or minimize
 dt			= 0.001			; time step for integration (1 fs)
 comm_mode 		= linear		; remove center of mass translation
 comm_grps 		= system		; group(s) for center of mass motion removal
