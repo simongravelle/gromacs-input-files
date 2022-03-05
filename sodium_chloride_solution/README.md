@@ -9,7 +9,7 @@ Na Cl ions. The force field for the water is [tip4p/epsilon](https://doi.org/10.
 
 ### How to
 
-Execute generate_configuration_gromacs.ipynb using jupyter-notebook to generate 
+From the build/ folder, execute generate_configuration_gromacs.ipynb using jupyter-notebook to generate 
 the initial configuration, or use the build_multiple_folder.sh bash script.
 
 Then, run gromacs using
