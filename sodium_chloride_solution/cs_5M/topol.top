@@ -1,0 +1,12 @@
+#include "../ff/forcefield.itp"
+#include "../ff/tip4peps.itp"
+#include "../ff/ions.itp"
+
+[ System ]
+Bulk Na Cl electrolyte
+
+[ Molecules ]
+
+Cl 83
+Na 83
+SOL 1834
