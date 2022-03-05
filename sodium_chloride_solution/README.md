@@ -5,7 +5,7 @@
 ### Description
 
 The simulation consists in a cubic box filled with water molecule and 
-Na Cl ions. The force field for the water is [tip4p/epsilon](https://doi.org/10.1021/jp410865y). The force field for the ions is from [Loche et al.](https://doi.org/10.1021/acs.jpcb.1c05303).
+Na Cl ions. The force field for the water is [tip4p/epsilon](https://doi.org/10.1021/jp410865y). The force field for the ions is from [Loche et al.](https://doi.org/10.1021/acs.jpcb.1c05303)
 
 ### How to
 
