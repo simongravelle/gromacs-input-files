@@ -1,6 +1,6 @@
 # Bulk sodium chloride solution
 
-<img align="right" width="30%" src="bulkwater.jpg">
+<img align="right" width="30%" src="NaCl.jpg">
 
 ### Description
 
