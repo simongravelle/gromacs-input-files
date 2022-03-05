@@ -1,8 +1,8 @@
 # GROMACS input files
 
 <p float="left">
-  <img src="PEG-in-vacuum/PEG.jpg" width="24.5%" />
-  <img src="water-in-box/bulkwater.jpg" width="24.5%" />
-  <img src="sodium_chloride_solution/NaCl.jpg" width="24.5%" />
+  <a href="PEG-in-vacuum/"><img src="PEG-in-vacuum/PEG.jpg" width="24.5%" /></a>
+  <a href="water-in-box/"><img src="water-in-box/bulkwater.jpg" width="24.5%" /></a>
+  <a href="sodium_chloride_solution/"><img src="sodium_chloride_solution/NaCl.jpg" width="24.5%" /></a>
 </p>
 
