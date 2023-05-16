@@ -25,7 +25,7 @@ def neighborsearch(neighbor,molecule,cptatm, x, y, z, Lx, Ly, Lz):
 Na = 6.022e23 #constants.Avogadro
 Mh2o = 0.018053 # kg/mol - water
 
-N = 2000
+N = 4000
 
 # desired concentration in mol/L
 c = 4
@@ -34,8 +34,8 @@ nwater = N - 2*nion
 
 # choose the initial box dimensions
 dnacl = 2.84
-nx = 10
-ny = 10
+nx = 14
+ny = 14
 nz = 4
 dw = 3.1
 layer = nz*dnacl
