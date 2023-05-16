@@ -1,0 +1,15 @@
+#include "../ff/forcefield.itp"
+#include "../ff/tip4peps.itp"
+#include "../ff/ions.itp"
+
+[ System ]
+SO4Na2 slit pore
+
+[ Molecules ]
+
+SO4fi 279
+SO4 24
+SO4fp 1
+Nafi 560
+Na 48
+SOL 3930

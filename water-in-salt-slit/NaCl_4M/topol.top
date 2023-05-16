@@ -1,0 +1,14 @@
+#include "../ff/forcefield.itp"
+#include "../ff/tip4peps.itp"
+#include "../ff/ions.itp"
+
+[ System ]
+SO4Na2 slit
+
+[ Molecules ]
+
+Cl 267
+Clf 1
+Naf 200
+Na 68
+SOL 1866
