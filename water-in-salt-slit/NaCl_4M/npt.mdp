@@ -1,17 +1,17 @@
 ;
 ;	File 'npt.mdp' was generated
-;	By user: simon (1000)
-;	On host: simon-tower
-;	At date: Tue May 16 11:09:26 2023
+;	By user: unknown (1862325)
+;	On host: bigfoot9
+;	At date: Tue May 16 11:46:39 2023
 ;
 ;	Created by:
 ;	                      :-) GROMACS - gmx grompp, 2023 (-:
 ;	
-;	Executable:   /usr/local/bin/gmx
-;	Data prefix:  /usr/local
-;	Working dir:  /home/simon/Git/Gromacs/gromacs-input-files/water-in-salt-slit/NaCl_4M
+;	Executable:   /home/gravells/softwares/gromacs-2023/build-gpu/bin/gmx
+;	Data prefix:  /home/gravells/softwares/gromacs-2023 (source tree)
+;	Working dir:  /bettik/gravells/water-in-salt-slit/NaCl_4M
 ;	Command line:
-;	  gmx grompp -f ../input/npt.mdp -o npt -pp npt -po npt -r conf.gro
+;	  gmx grompp -f ../input/npt.mdp -p topol.top -o npt -pp npt -po npt -r conf.gro -maxwarn 2
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
@@ -65,11 +65,11 @@ nstxout                  = 0
 nstvout                  = 0
 nstfout                  = 0
 ; Output frequency for energies to log file and energy file
-nstlog                   = 20000
+nstlog                   = 200000
 nstcalcenergy            = 100
-nstenergy                = 20000
+nstenergy                = 200000
 ; Output frequency and precision for .xtc file
-nstxout-compressed       = 20000
+nstxout-compressed       = 200000
 compressed-x-precision   = 1000
 ; This selects the subset of atoms for the compressed
 ; trajectory file. You can select multiple groups. By
@@ -171,7 +171,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = no
 gen-temp                 = 293.15
-gen-seed                 = -67176466
+gen-seed                 = 939478271
 
 ; OPTIONS FOR BONDS    
 constraints              = hbonds

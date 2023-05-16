@@ -1,0 +1,27 @@
+# This file was created Tue May 16 12:01:00 2023
+# Created by:
+#                       :-) GROMACS - gmx energy, 2023 (-:
+# 
+# Executable:   /home/gravells/softwares/gromacs-2023/build-gpu/bin/gmx
+# Data prefix:  /home/gravells/softwares/gromacs-2023 (source tree)
+# Working dir:  /bettik/gravells/water-in-salt-slit/NaCl_4M
+# Command line:
+#   gmx energy -f npt.edr
+# gmx energy is part of G R O M A C S:
+#
+# Gyas ROwers Mature At Cryogenic Speed
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kg/m^3)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Density"
+    0.000000  966.511536
+  200.000000  1222.212769
+  400.000000  1225.539062

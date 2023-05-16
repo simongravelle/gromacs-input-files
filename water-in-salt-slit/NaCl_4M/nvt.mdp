@@ -1,17 +1,17 @@
 ;
 ;	File 'nvt.mdp' was generated
-;	By user: simon (1000)
-;	On host: simon-tower
-;	At date: Tue May 16 11:07:31 2023
+;	By user: unknown (1862325)
+;	On host: bigfoot9
+;	At date: Tue May 16 11:40:44 2023
 ;
 ;	Created by:
 ;	                      :-) GROMACS - gmx grompp, 2023 (-:
 ;	
-;	Executable:   /usr/local/bin/gmx
-;	Data prefix:  /usr/local
-;	Working dir:  /home/simon/Git/Gromacs/gromacs-input-files/water-in-salt-slit/NaCl_4M
+;	Executable:   /home/gravells/softwares/gromacs-2023/build-gpu/bin/gmx
+;	Data prefix:  /home/gravells/softwares/gromacs-2023 (source tree)
+;	Working dir:  /bettik/gravells/water-in-salt-slit/NaCl_4M
 ;	Command line:
-;	  gmx grompp -f ../input/nvt.mdp -o nvt -pp nvt -po nvt -r conf.gro
+;	  gmx grompp -f ../input/nvt.mdp -p topol.top -o nvt -pp nvt -po nvt -r conf.gro
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
@@ -25,7 +25,7 @@ integrator               = md
 ; Start time and timestep in ps
 tinit                    = 0
 dt                       = 0.001
-nsteps                   = 1000
+nsteps                   = 50000
 ; For exact run continuation or redoing part of a run
 init-step                = 0
 ; Part index is updated automatically on checkpointing (keeps files separate)
@@ -171,7 +171,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = yes
 gen-temp                 = 293.15
-gen-seed                 = -369100997
+gen-seed                 = -588259333
 
 ; OPTIONS FOR BONDS    
 constraints              = hbonds
